@@ -4,7 +4,7 @@
 
 # Site
 title: Fajfar.com
-subtitle: A little bit aout everything
+subtitle: A little bit about everything
 description: My personal space in the big web
 author: Dejan FAJFAR
 language: EN
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -42,6 +42,10 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
+marked:
+  gfm: false
+  breaks: false
+
 
 # Category & Tag
 default_category: uncategorized
@@ -68,4 +72,11 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: 81.19.156.195
+  user: fajfar_com_deploy
+  root: /var/www/fajfar.com
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false

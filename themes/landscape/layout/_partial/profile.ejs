@@ -1,0 +1,28 @@
+
+<article>
+	<div class="profile-inner">
+		<div id="profile-picture">
+			<div class="profile-gradient">
+				<img src="<%- gravatar(post.email, 200) %>"/>
+			</div>
+		</div>
+		<div id="profile-icons">
+			<% if(post.twitch){%>
+				<a href="<%= post.twitch%>" target="_blank" id="twitch" class="icon" title="twitch"></a>
+			<% } %>
+			<% if(post.facebook){%>
+				<a href="<%= post.facebook%>" target="_blank" id="facebook" class="icon" title="twitch"></a>
+			<% } %>
+			<% if(post.youtube){%>
+				<a href="<%= post.youtube%>" target="_blank" id="youtube" class="icon" title="twitch"></a>
+			<% } %>
+			<p>|</p>
+			<% if(post.cv){%>
+			<a href="<%= post.cv%>" target="_blank" id="pdf" class="icon" title="twitch"></a>
+			<% } %>
+		</div>
+		<div class="profile-text">
+			<%- post.content %>
+		</div>
+	</div>
+</article>

@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Dejan: /Dejan-Fajfar
 rss: /atom.xml
 
 # Content
@@ -11,11 +12,8 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
-- category
-- tag
-- tagcloud
-- archive
 - recent_posts
+- category
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
@@ -29,7 +27,7 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: css/images/favicon.ico
 twitter:
 google_plus:
 fb_admins:

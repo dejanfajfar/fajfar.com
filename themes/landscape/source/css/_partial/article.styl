@@ -11,6 +11,9 @@
 .article-date
   @extend $block-caption
   float: left
+  font-weight: 400
+  font-family: font-logo
+  font-size: 20px
 
 .article-category
   float: left
@@ -27,12 +30,20 @@
 
 .article-header
   padding: article-padding article-padding 0
+  .gravatar
+    display: inline-block
+    margin-right: 20px
+    img
+      border-radius: 50px
+      border: solid 3px color-default
+  h1
+    display: inline-block
 
 .article-title
   text-decoration: none
   font-size: 2em
-  font-weight: bold
-  color: color-default
+  font-weight: 300
+  color: color-article-title
   line-height: line-height-title
   transition: color 0.2s
   a&:hover

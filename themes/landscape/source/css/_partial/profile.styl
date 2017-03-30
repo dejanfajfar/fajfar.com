@@ -1,0 +1,80 @@
+article
+  margin: block-margin 0
+
+  .profile-inner
+    @extend $block
+    overflow: hidden
+
+    .profile-text
+      @extend $base-style
+      clearfix()
+      color: color-default
+      padding: 0 article-padding
+
+      blockquote
+        font-family: font-serif
+        font-size: 1.4em
+        margin: line-height 20px
+        text-align: center
+
+#profile-icons
+  background-color: color-default;
+  padding: 10px;
+  color: white;
+  box-shadow: 0 3px 10px color-default;
+  display: flex;
+  flex-direction: row;
+  flex-wrap nowrap;
+  justify-content: center
+
+  .icon
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    font-family : font-icon
+    margin: 0 20px;
+    transition: color 0.3s
+
+    &:hover
+      color: #333;
+      border-radius: 20px;
+      text-shadow: 0 0 20px white;
+
+  p
+    font-size: x-large;
+    opacity: 0.5;
+
+
+
+#profile-picture
+  margin: 20px;
+  text-align center
+  background-image: url(banner-url)
+
+  .profile-gradient
+    background-image: linear-gradient(to left, transparent, white, transparent);
+
+img
+    border-radius: 200px
+    border: solid 5px color-default
+
+
+#twitch
+  &:before
+    content: "\f1e8"
+
+#facebook
+  &:before
+    content: "\f082"
+
+#youtube
+  &:before
+    content: "\f167"
+
+#github
+  &:before
+    content: "\f113"
+
+#pdf
+  &:before
+    content: "\f1c1"
