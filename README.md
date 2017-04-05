@@ -1,3 +1,3 @@
-#Fajfar.com
+# Fajfar.com
 
-My little place of the internet
+My personal web page where I can post things important to me and the things I am on.
