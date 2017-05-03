@@ -105,3 +105,89 @@ The rest can be found [here](https://en.wikipedia.org/wiki/Scripting_language).
 In my humble opinion a scripting language must be interpreted and not compiled. So that we can make changes and improvements
 on the fly without the need for a __full development environment__.
  
+# Scripting basics
+
+Now after a long expositional dump we will start with the article proper.
+
+First of all this little _school_ will only handle scripting in the shell. This brings uns the term 
+[shell scripting](https://en.wikipedia.org/wiki/Shell_script) which can be defined as
+
+> A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter. The various dialects of shell scripts are considered to be scripting languages.
+
+So lets start with the first line of every script file.
+
+## Shebang
+
+Shebang should be the first line of the script file and denotes the _interpreter_ to use. 
+
+```bash
+#!/bin/sh
+```
+
+This will instruct the OS to use the __sh__ interpreter to run the script.
+
+Depending on the interpreter you want to use this line may vary. A very good definition and explanation ca be found at
+[wikipedia](https://en.wikipedia.org/wiki/Shebang_%28Unix%29).
+
+Everything after this first initial line will be handled in the upcoming tutorials. So for the sake of getting this
+ long article done we will assume that we have written a script and now want to run it. But to do so we have to grant
+ it execution rights.
+ 
+## Granting execution rights to scripts
+
+If we do not give scripts the execute right we are hindering oneself in the long run. Because now we have to specify the
+execution environment every time we execute the "script".
+
+Without the execute right we have to 
+
+```bash
+$ sh my_script.sh
+
+$ node my_script.js
+
+$ python my_script.py
+```
+
+After we grant execution permissions, assuming that the script file starts with a shebang, we only have to do
+
+```bash
+$ my_script.sh
+
+$ my_script.js
+
+$ my_script.py
+```
+
+So how do we do this? Simple. Using the __chmod__ command we can grand execute rights to any script file in two ways.
+
+### +x
+
+```bash
+$ chmod +x my_script.sh
+```
+
+Done. 
+
+This will grand execute permissions to __my_script.sh__.
+
+To remove the execute permission just run 
+
+```bash
+$ chmod -x my_script.sh
+```
+
+### 755
+
+```bash
+$ chmod 755 my_script.sh
+```
+
+This will grant execute permissions to __my_script.sh__ but keep the edit permission with the owner.
+
+
+# End
+
+This are the few things we have to know up front to enjoy the coming tutorials. 
+
+To better follow I have setup a [GitHub repository](https://github.com/dejanfajfar/shell.101) to hold all the samples 
+and transcripts.
