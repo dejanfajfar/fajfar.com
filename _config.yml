@@ -83,3 +83,11 @@ deploy:
 
 #Disqus comments
 disqus_shortname: fajfar-com
+
+# atom feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:

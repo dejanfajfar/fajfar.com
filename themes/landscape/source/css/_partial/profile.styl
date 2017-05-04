@@ -9,7 +9,27 @@ article
       @extend $base-style
       clearfix()
       color: color-default
-      padding: 0 article-padding
+      padding: 0 article-padding article-padding
+
+      p, table
+        line-height: line-height
+        margin: line-height 0
+      h1, h2, h3, h4, h5, h6
+        font-weight: bold
+      h1, h2, h3, h4, h5, h6
+        line-height: 1.1em
+        margin: 1em 0
+      table
+        width: 100%
+        border-collapse: collapse
+        border-spacing: 0
+      th
+        font-weight: bold
+        border-bottom: 3px solid color-border
+        padding-bottom: 0.5em
+      td
+        border-bottom: 1px solid color-border
+        padding: 10px 0
 
       blockquote
         font-family: font-serif
@@ -78,3 +98,8 @@ article
 #pdf
   &:before
     content: "\f1c1"
+
+#linkedin
+  &:before
+    content: "\f0e1"
+

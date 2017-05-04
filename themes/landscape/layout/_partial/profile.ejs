@@ -7,11 +7,18 @@
 			</div>
 		</div>
 		<div id="profile-icons">
-			<% if(post.twitch){%>
-				<a href="<%= post.twitch%>" target="_blank" id="twitch" class="icon" title="twitch"></a>
+			<% if(post.linkedin){%>
+			<a href="<%= post.linkedin%>" target="_blank" id="linkedin" class="icon" title="linkedin"></a>
 			<% } %>
 			<% if(post.facebook){%>
-				<a href="<%= post.facebook%>" target="_blank" id="facebook" class="icon" title="twitch"></a>
+			<a href="<%= post.facebook%>" target="_blank" id="facebook" class="icon" title="twitch"></a>
+			<% } %>
+			<% if(post.github){%>
+			<a href="<%= post.github%>" target="_blank" id="github" class="icon" title="github"></a>
+			<% } %>
+			<p>|</p>
+			<% if(post.twitch){%>
+				<a href="<%= post.twitch%>" target="_blank" id="twitch" class="icon" title="twitch"></a>
 			<% } %>
 			<% if(post.youtube){%>
 				<a href="<%= post.youtube%>" target="_blank" id="youtube" class="icon" title="twitch"></a>

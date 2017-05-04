@@ -30,22 +30,25 @@
 
 .article-header
   padding: article-padding article-padding 0
+  display: table
   .gravatar
-    display: inline-block
     margin-right: 20px
+    display: table-cell
     img
       border-radius: 50px
       border: solid 3px color-default
   h1
-    display: inline-block
+    display: table-cell
+    padding-left: 15px
 
 .article-title
   text-decoration: none
-  font-weight: 300
+  font-weight: 700
   color: color-article-title
   line-height: line-height-title
   transition: color 0.2s
-  font-size: 2.3em;
+  font-size: 3em;
+  font-family font-title
   a&:hover
     color: color-link
 
@@ -60,8 +63,8 @@
   h1, h2, h3, h4, h5, h6
     font-weight: bold
   h1, h2, h3, h4, h5, h6
-    line-height: line-height-title
-    margin: line-height-title 0
+    line-height: 1.1em
+    margin: 1em 0
   a
     color: color-link
     text-decoration: none
@@ -94,6 +97,7 @@
     font-size: 1.4em
     margin: line-height 20px
     text-align: center
+    border-left: 5px solid color-default
     footer
       font-size: font-size
       margin: line-height 0
