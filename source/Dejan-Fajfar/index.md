@@ -58,3 +58,17 @@ __[ X X X - - ]__ Ruby
 __[ X X X - - ]__ Python
 
 __[ X - - - - ]__ Go
+
+### Query languages
+
+__[ X X X X - ]__ TSQL
+
+__[ X X X - - ]__ PLSQL
+
+__[ X X X X - ]__ Whatever that thing from mongoDb is called
+
+## IDE
+
+__[ X X X X X ]__ Visual Studio
+
+...
