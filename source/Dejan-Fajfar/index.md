@@ -7,7 +7,7 @@ twitch: https://www.twitch.tv/df_happy
 facebook: https://www.facebook.com/fajfar
 github: https://github.com/dejanfajfar
 youtube: https://www.youtube.com/channel/UCGMqFwonaWXb2PQqEf0G8EA
-cv: https://fajfar.com/files/dejan_fajfar.pdf
+cv: https://files.fajfar.com/docs/dejan_fajfar_en.pdf
 linkedin: https://www.linkedin.com/in/dejan-fajfar-87204675/
 ---
 
