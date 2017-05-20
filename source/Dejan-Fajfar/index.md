@@ -9,6 +9,65 @@ github: https://github.com/dejanfajfar
 youtube: https://www.youtube.com/channel/UCGMqFwonaWXb2PQqEf0G8EA
 cv: https://files.fajfar.com/docs/dejan_fajfar_en.pdf
 linkedin: https://www.linkedin.com/in/dejan-fajfar-87204675/
+skills:
+- 
+	name: Personal
+	ratings:
+		- 
+			name: Communication
+			value: 5
+		-
+			name: Leadership
+			value: 5
+-
+	name: Programming languages
+	ratings:
+		-
+			name: C#
+			value: 5
+		-
+			name: JavaScript
+			value: 5
+		-
+			name: Java
+			value: 4
+		-
+			name: Ruby
+			value: 3
+		-
+			name: Python
+			value: 3
+		-
+			name: Go
+			value: 1
+-
+	name: Other language
+	ratings:
+		-
+			name: TSQL
+			value: 4
+		-
+			name: PLSQL
+			value: 3
+		-
+			name: Whatever that thing from mongoDb is called
+			value: 4
+-
+	name: IDEs / Editors
+	ratings:
+		-
+			name: Visual Studio
+			value: 5
+		-
+			name: Atom
+			value: 4
+		-
+			name: WebStorm
+			value: 5
+		-
+			name: RubyMine
+			value: 
+		
 ---
 
 > Hello my name is Dejan FAJFAR and I create software. 
@@ -36,39 +95,3 @@ __Languages__:
 * Serbian
 
 __Current location__: Möllersdorf, Austria
-
-# Skills
-
-## Personal
-
-__[ X X X X - ]__ Communication
- 
-__[ X X X X - ]__ Leadership
-
-## Programming languages
-
-__[ X X X X X ]__ C#
-
-__[ X X X X X ]__ JavaScript 
-
-__[ X X X X - ]__ Java
-
-__[ X X X - - ]__ Ruby
-
-__[ X X X - - ]__ Python
-
-__[ X - - - - ]__ Go
-
-### Query languages
-
-__[ X X X X - ]__ TSQL
-
-__[ X X X - - ]__ PLSQL
-
-__[ X X X X - ]__ Whatever that thing from mongoDb is called
-
-## IDE
-
-__[ X X X X X ]__ Visual Studio
-
-...

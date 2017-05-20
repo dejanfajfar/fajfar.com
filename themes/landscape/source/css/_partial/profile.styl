@@ -78,6 +78,31 @@ article
       border-radius: 200px
       border: solid 5px color-default
 
+#skills
+  @extend $base-style
+  color: color-default
+  padding: 0 article-padding article-padding
+  h1, h2, h3, h4, h5, h6
+    font-weight: bold
+  h1, h2, h3, h4, h5, h6
+    line-height: 1.1em
+    margin: 1em 0
+  .icon
+    font-size: x-large;
+    text-decoration: none;
+    font-family : font-icon
+    margin: 0 5px;
+    color: #FBC02D;
+  p
+    margin 10px 0;
+
+  .star
+    &:before
+      content: "\f005"
+
+  .star0
+    &:before
+      content: "\f006"
 
 #twitch
   &:before
@@ -102,4 +127,3 @@ article
 #linkedin
   &:before
     content: "\f0e1"
-

@@ -31,5 +31,29 @@
 		<div class="profile-text">
 			<%- post.content %>
 		</div>
+		<% if(post.skills){%>
+		<div id="skills">
+			<h1>Skills</h1>
+			<% for(var topLevel = 0; topLevel < page.skills.length; topLevel++){ %>
+			<h2><%= page.skills[topLevel].name%></h2>
+			
+			<% for(var detail = 0; detail < page.skills[topLevel].ratings.length; detail++){%>
+			<p>
+				
+				<span class="ratting">
+					<% for(var stars = 0; stars < 5; stars++){%>
+					<% if(stars < parseInt(page.skills[topLevel].ratings[detail].value) ){%>
+					<span class="star icon"></span>
+					<%} else {%>
+					<span class="star0 icon"></span>
+					<%}%>
+					<%}%>
+				</span>
+				<span class="name"><%= page.skills[topLevel].ratings[detail].name %></span>
+			</p>
+			<%}%>
+			<% } %>
+		</div>
+		<%}%>
 	</div>
 </article>
