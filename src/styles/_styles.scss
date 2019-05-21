@@ -1,0 +1,33 @@
+@import 'palette';
+
+$bg-color: #F6F6F6;
+$text-color: $color1;
+$shadow-color: $text-color;
+
+html { 
+    background: url(images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+#main {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /*background: linear-gradient(to bottom, rgba($bg-color, .1) 10%,  rgba($bg-color, .8) 60%, $bg-color 100%);*/
+    background-color: rgba($bg-color, .98);
+    color: $text-color;
+    box-shadow: inset $shadow-color 0px 5px 15px 0px;
+
+    h1 {
+        font-size: 4rem;
+        color: $color4;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+}
