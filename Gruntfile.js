@@ -8,7 +8,8 @@ module.exports = function(grunt) {
             dist: {
                 files: [
                     {src: 'src/index.html', dest: 'dist/index.html'},
-                    {expand: true, src: 'assets/images/**', dest: 'dist/images/', filter: 'isFile', flatten: true}
+                    {expand: true, src: 'assets/images/**', dest: 'dist/images/', filter: 'isFile', flatten: true},
+                    {expand: true, src: 'assets/fonts/**', dest: 'dist/fonts/', filter: 'isFile', flatten: true}
                 ]
             }
         },

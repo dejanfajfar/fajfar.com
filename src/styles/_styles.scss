@@ -1,6 +1,6 @@
 @import 'palette';
 
-$bg-color: #F6F6F6;
+$bg-color: $color2;
 $text-color: $color1;
 $shadow-color: $text-color;
 
@@ -29,5 +29,19 @@ html {
 
     p {
         font-size: 1.4rem;
+    }
+}
+
+#links {
+    a {
+        text-decoration: none;
+        color: $text-color;
+        margin: 5px;
+        display: inline-block;
+        i {
+            margin-right: 5px;
+            font-size: 3rem;
+            color: $color4;
+        }
     }
 }
