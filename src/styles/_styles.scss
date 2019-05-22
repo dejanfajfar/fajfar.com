@@ -5,30 +5,44 @@ $text-color: $color1;
 $shadow-color: $text-color;
 
 html { 
-    background: url(images/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(images/pattern.png) repeat; 
     height: 100%;
 }
 
 #main {
-    position: absolute;
-    bottom: 0;
     width: 100%;
     /*background: linear-gradient(to bottom, rgba($bg-color, .1) 10%,  rgba($bg-color, .8) 60%, $bg-color 100%);*/
     background-color: rgba($bg-color, .98);
     color: $text-color;
-    box-shadow: inset $shadow-color 0px 5px 15px 0px;
+
+    #intro {
+        padding: 0 2rem;
+
+        h2 {
+            font-size: 3rem;
+            color: $color4;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+    }
+}
+
+#splash {
+    background: $color4;
+    background: linear-gradient(160deg, $color4 61%, $color5 100%);
+    height: 400px;
+    box-shadow: $shadow-color 0 0 5px;
+    display: flex;
+    justify-content: center;
 
     h1 {
+        margin: auto 0;
         font-size: 4rem;
-        color: $color4;
-    }
-
-    p {
-        font-size: 1.4rem;
+        font-weight: 700;
+        color: $color3;
+        text-shadow: darken($color4, 20%) 2px 2px 5px; 
     }
 }
 
@@ -38,6 +52,7 @@ html {
         color: $text-color;
         margin: 5px;
         display: inline-block;
+
         i {
             margin-right: 5px;
             font-size: 3rem;
