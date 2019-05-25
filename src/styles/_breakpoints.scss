@@ -1,0 +1,14 @@
+$mobile-query: "(max-width: 768px)";
+$desktop-query: "(min-width: 769px)";
+
+@mixin mobile {
+    @media #{$mobile-query} {
+        @content;
+    }
+}
+
+@mixin desktop {
+    @media #{$desktop-query} {
+        @content;
+    }
+}

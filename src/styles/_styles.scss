@@ -1,53 +1,84 @@
 @import 'palette';
+@import 'breakpoints';
 
 $bg-color: $color2;
 $text-color: $color1;
 $shadow-color: $text-color;
 
 html { 
-    background: url(images/pattern.png) repeat; 
+    /*background: url(images/pattern.png) repeat; */
+    background-color: $color3;
     height: 100%;
 }
 
 #main {
-    width: 50%;
     margin: 0 auto;
-    min-width: 600px;
     /*background: linear-gradient(to bottom, rgba($bg-color, .1) 10%,  rgba($bg-color, .8) 60%, $bg-color 100%);*/
     background-color: rgba($bg-color, .98);
     color: $text-color;
+    box-shadow: $shadow-color 0 0 5px;
+
+    @include mobile {
+        width: 100%;
+    }
+    
+    @include desktop {
+        margin: auto 7vw;
+        min-width: 600px;
+    }
 
     #intro {
-        padding: 0 2rem;
+        padding: 4rem 2rem;
 
         h2 {
             margin: 0;
-            font-size: 3rem;
             color: $color4;
+
+            @include mobile {
+                font-size: 8vw;
+            }
+
+            @include desktop {
+                font-size: 3rem;
+            }
         }
 
         p {
-            font-size: 1.2rem;
+            @include mobile {
+                font-size: 4vw;
+            }
+
+            @include desktop {
+                font-size: 1.2rem;
+            }
+        }
+
+        img {
+            max-width: 100%;
         }
     }
 
     #links {
-        margin: 2rem 0;
+        display: flex;
+        justify-content: center;
         background-color: lighten($color5, 20%);
-        box-shadow: 0 3px 3px $shadow-color;
-        margin: 2rem 0;
-    }
 
-    #links {
         a {
             text-decoration: none;
             color: $text-color;
-            margin: 5px;
+            margin: 0 5px;
+            padding: 10px 5px;
             display: inline-block;
+
+            &:hover {
+                text-decoration: underline;
+                background-color: $color3;
+                color: $color4
+            }
 
             i {
                 margin-right: 5px;
-                font-size: 3rem;
+                font-size: 1.4rem;
                 color: $color4;
             }
         }
@@ -55,9 +86,6 @@ html {
 }
 
 #splash {
-    width: 55%;
-    margin: 0 auto;
-    min-width: 650px;
     background: $color4;
     background: linear-gradient(160deg, $color4 61%, $color5 100%);
     height: 400px;
@@ -66,11 +94,29 @@ html {
     justify-content: center;
     position: relative;
 
+    @include mobile {
+        width: 100%;
+        height: 30vh;
+    }
+
+    @include desktop {
+        min-width: 650px;
+        height: 400px;
+        margin: auto 5vw;
+    }
+
     h1 {
         margin: auto 0;
-        font-size: 4rem;
         font-weight: 700;
         color: $color3;
         text-shadow: darken($color4, 20%) 2px 2px 5px; 
+
+        @include mobile {
+            font-size: 10vw;
+        }
+
+        @include desktop {
+            font-size: 4rem;
+        }
     }
 }
