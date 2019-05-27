@@ -8,6 +8,7 @@ module.exports = function(grunt) {
             dist: {
                 files: [
                     {src: 'src/index.html', dest: 'dist/index.html'},
+                    {src: 'src/manifest.webmanifest', dest: 'dist/manifest.webmanifest'},
                     {expand: true, src: 'assets/images/**', dest: 'dist/images/', filter: 'isFile', flatten: true}
                 ]
             }
