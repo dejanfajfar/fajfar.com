@@ -1,17 +1,7 @@
 # Fajfar.com
 
-Some smarky intro wha this page exists
+My little part of the internet. 
 
-## Colors
+Originally a [hexo.io](https://hexo.io/) based log that became starved of content after I started to pay for a [medium.com](https://medium.com/) subscription. 
 
-Because I forget...
-
-Here the basic color codes:
-
-**background**
-Light => #F1A3F7
-Dark => #543254
-
-**foreground**
-Light => #FFF
-Dark => #E29CD8
+So for now this will only be a static page with some basic information until I get around to make it more _appealing_.
