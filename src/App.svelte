@@ -1,6 +1,8 @@
 <script>
 	import Splash from './components/splash.svelte';
 	import Menu from './components/menu.svelte';
+	import ShortBio from './components/ShortBio.svelte';
+	import ProjectList from './components/ProjectList.svelte';
 	export let name;
 </script>
 
@@ -10,3 +12,5 @@
 
 <Menu></Menu>
 <Splash></Splash>
+<ShortBio></ShortBio>
+<ProjectList></ProjectList>

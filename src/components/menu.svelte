@@ -4,23 +4,38 @@
     export let links = [
         {
             text: 'linkedIn',
-            logo: 'fa-linkedin',
+            logo: 'fab fa-linkedin',
             href: 'https://www.linkedin.com/in/dejan-fajfar-87204675/'
         },
         {
             text: 'GitHub',
-            logo: 'fa-github-square',
+            logo: 'fab fa-github-square',
             href: 'https://github.com/dejanfajfar'
         },
         {
             text: 'Medium',
-            logo: 'fa-medium',
+            logo: 'fab fa-medium',
             href: 'https://medium.com/@dejanfajfar'
         },
         {
             text: 'Twitter',
-            logo: 'fa-twitter-square',
+            logo: 'fab fa-twitter-square',
             href: 'https://twitter.com/dejanfajfar'
+        },
+        {
+            text: 'npm',
+            logo: 'fab fa-npm',
+            href: 'https://www.npmjs.com/~dejanfajfar'
+        },
+        {
+            text: 'nuget',
+            logo: 'fas fa-cube',
+            href: 'https://www.nuget.org/profiles/dejanfajfar'
+        },
+        {
+            text: 'docker',
+            logo: 'fab fa-docker',
+            href: 'https://hub.docker.com/u/dejanfajfar'
         }
     ];
 </script>
@@ -31,7 +46,7 @@
 
         display: flex;
         align-items: center;
-        justify-content: flex-start;
+        justify-content: space-between;
         position: relative;
 
         .logo {

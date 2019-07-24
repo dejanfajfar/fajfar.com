@@ -1,7 +1,7 @@
 <script>
     export let link = {
         text: 'No Data',
-        logo: 'fa-question',
+        logo: 'fab fa-question',
         href: '#'
     };
 </script>
@@ -25,13 +25,23 @@
             p {
                 text-transform: uppercase;
             }
+
+            &:hover {
+                color: $color4;
+
+                p {
+                    text-decoration: underline;
+                }
+            }
         }
+
+        
     }
 </style>
 
 <div class="menuItem">
     <a href="{link.href}" target="_blank">
-        <i class="fab {link.logo}"></i>
+        <i class="{link.logo}"></i>
         <p>{link.text}</p>
     </a>
 </div>
