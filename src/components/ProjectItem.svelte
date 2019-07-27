@@ -15,6 +15,17 @@
         width: 350px;
         border: 1px solid $color4;
         display: block;
+        margin: 0 10px;
+        opacity: 0.8;
+
+        transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
 
         img {
             width: inherit;
