@@ -21,7 +21,6 @@
     .projects {
         display: flex;
         margin-top: 40px;
-        margin-bottom: 40px;
         flex-direction: row;
         justify-content: center;
     }

@@ -27,7 +27,7 @@
             }
 
             &:hover {
-                color: $color4;
+                color: $menu-item-hover;
 
                 p {
                     text-decoration: underline;

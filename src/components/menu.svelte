@@ -41,23 +41,18 @@
 </script>
 
 <style type="text/scss" lang="scss">
+    @import 'src/styles/component.scss';
     .menu {
         height: 50px;
-
+        background-color: $color4;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        position: relative;
-
-        .logo {
-            height: 40px;
-        }
     }
 </style>
 
 <div class="menu">
-    <img class="logo" src="favicon.ico" alt="">
     {#each links as link (link.text)}
-        <MenuItem link={link}/> |
+        <MenuItem link={link}/>
     {/each}
 </div>
