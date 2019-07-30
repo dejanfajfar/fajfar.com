@@ -10,14 +10,11 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-- task: DownloadBuildArtifacts@0
-  inputs:
-    buildType: 'current'
-    downloadType: 'specific'
-    itemPattern: 'public/*'
-    downloadPath: '$(System.ArtifactsDirectory)'
-
 - script: |
     npm install
     npm run build
   displayName: 'npm install and build'
+- task: PublishPipelineArtifact@1
+  inputs:
+    targetPath: '$(Pipeline.Workspace)/public'
+    artifact: 'webApp'
