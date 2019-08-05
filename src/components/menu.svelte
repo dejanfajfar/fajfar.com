@@ -46,9 +46,13 @@
         height: 50px;
         background-color: $color4;
         display: flex;
+        padding-left: 20px;
         align-items: center;
-        justify-content: space-between;
-        padding: 0 20px;
+        justify-items: left;
+
+        @include mobile{
+            display: none;
+        }
     }
 </style>
 

@@ -16,21 +16,28 @@
             text-decoration: none;
             color: $menu-item;
 
-            margin: 0 5px;
+            margin-right: 20px;
 
             i {
                 margin-right: 5px;
+                opacity: 0.2;
             }
 
             p {
                 text-transform: uppercase;
+                margin: 0;
+                opacity: 0.5;
             }
 
             &:hover {
-                color: $menu-item-hover;
 
                 p {
                     text-decoration: underline;
+                    opacity: 1;
+                }
+
+                i {
+                    opacity: 1;
                 }
             }
         }

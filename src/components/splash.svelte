@@ -3,18 +3,24 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    $bg-color: $color2;
-    $text-color: $color1;
-    $shadow-color: $text-color;
+    
 
 
     .splash {
         background: $color4;
         background: linear-gradient(160deg, $color4 61%, $color5 100%);
-        height: 400px;
         display: flex;
         align-items: center;
         justify-content: center;
+        @include boxShadow;
+
+        @include desktop{
+            height: 400px;
+        }
+
+        @include mobile{
+            height: 200px;
+        }
 
         .logo {
             text-align: center;
@@ -38,6 +44,10 @@
             img {
                 height: 180px;
                 filter: drop-shadow($shadow-color 2px 2px 5px);
+
+                @include mobile{
+                    height: 100px;
+                }
             }
         }
     }
@@ -45,7 +55,7 @@
 
 <div class="splash">
     <div class="logo">
-        <img src="/images/logo_light.svg" alt=""/>
+        <img src="/images/logo.svg" alt=""/>
         <p>fajfar.com</p>
     </div>
 </div>

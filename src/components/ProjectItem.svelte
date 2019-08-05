@@ -12,19 +12,28 @@
 
     article {
         position: relative;
-        width: 350px;
-        border: 1px solid $color4;
         display: block;
-        margin: 0 10px;
+        
         opacity: 0.8;
 
-        transition: opacity .25s ease-in-out;
-        -moz-transition: opacity .25s ease-in-out;
-        -webkit-transition: opacity .25s ease-in-out;
+        @include desktop{
+            opacity: 0.8;
+            border: 1px solid $color4;
+            width: 350px;
+            margin: 0 10px;
 
-        &:hover {
-            opacity: 1;
-            cursor: pointer;
+            transition: opacity .25s ease-in-out;
+            -moz-transition: opacity .25s ease-in-out;
+            -webkit-transition: opacity .25s ease-in-out;
+
+            &:hover {
+                opacity: 1;
+                cursor: pointer;
+            }
+        }
+
+        @include mobile{
+            width: 100%;
         }
 
         img {
@@ -40,6 +49,10 @@
             background-color: $color4;
             color: $color3;
             font-size: xx-large;
+
+            @include mobile{
+                display: none;
+            }
         }
         
         .content {

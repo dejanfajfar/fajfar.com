@@ -3,30 +3,49 @@
 <style lang="scss" type="text/scss">
 @import 'src/styles/component.scss';
 
-    $bg-color: $color2;
-    $text-color: $color1;
-    $shadow-color: $text-color;
-
     .shortbio {
-        width: 60%;
-        margin: 0 auto;
         display: flex;
-        justify-content: space-between;
-        margin-top: 40px;
+
+        @include desktop{
+            width: 60%;
+            margin: 0 auto;
+            justify-content: space-between;
+            flex-direction: row;
+            margin-top: 40px;
+        }
+
+        @include mobile{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 10px;
+        }
         
         img {
             flex: none;
             margin: 20px;
             border-radius: 50%;
-            height: 100px;
-            width:  100px;
             overflow: hidden;
             box-shadow: $shadow-color 0 0 5px;
             border: 5px solid $color3;
+
+            @include desktop{
+                height: 100px;
+                width:  100px;
+            }
+
+            @include mobile{
+                height: 150px;
+                width:  150px;
+            }
         }
         
         div {
             display: block;
+
+            @include mobile{
+                margin: 0 10px;
+            }
         }
     }
 </style>

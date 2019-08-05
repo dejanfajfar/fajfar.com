@@ -18,11 +18,20 @@
 </script>
 
 <style type="text/scss" lang="scss">
+    @import 'src/styles/component.scss';
+
     .projects {
         display: flex;
         margin-top: 40px;
-        flex-direction: row;
         justify-content: center;
+
+        @include desktop{
+            flex-direction: row;
+        }
+
+        @include mobile{
+            flex-direction: column;
+        }
     }
 </style>
 
