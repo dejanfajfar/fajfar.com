@@ -1,8 +1,19 @@
 {
     "name": "fajfar.com",
-    "short_name": "fajfar.com",
     "start_url": ".",
-    "display": "browser",
+    "display": "standalone",
     "lang": "en-US",
-    "background_color": "#7261a3"
+    "background_color": "#7261a3",
+    "icons": [
+        {
+          "src": "/images/logo_192.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/images/logo_512.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ]
 }
