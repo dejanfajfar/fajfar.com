@@ -7,7 +7,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="800"
@@ -15,35 +14,13 @@
    viewBox="0 0 211.66666 211.66667"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
-   sodipodi:docname="logo.svg"
+   inkscape:version="0.92.4 (f8dce91, 2019-08-02)"
+   sodipodi:docname="logo_white.svg"
    inkscape:export-filename="/home/dfajfar/Documents/GitHub/fajfar.com/public/images/logo.png"
    inkscape:export-xdpi="12"
    inkscape:export-ydpi="12">
   <defs
-     id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient1378">
-      <stop
-         style="stop-color:#7261a3;stop-opacity:1;"
-         offset="0"
-         id="stop1374" />
-      <stop
-         style="stop-color:#7261a3;stop-opacity:0.66502464"
-         offset="1"
-         id="stop1376" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1378"
-       id="linearGradient1384"
-       x1="106.86887"
-       y1="223.63914"
-       x2="106.86887"
-       y2="294.30594"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs2" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -52,10 +29,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="363.9941"
-     inkscape:cy="396.437"
+     inkscape:cx="365.00425"
+     inkscape:cy="379.08991"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      inkscape:window-width="1868"
@@ -71,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,7 +74,7 @@
        d="m 148.92982,300.52695 c -7.79999,3.19666 -77.678537,2.93475 -85.454353,-0.3203 -7.775816,-3.25505 -57.0022045,-52.85184 -60.1988708,-60.65184 -3.19666642,-7.8 -2.93474959,-77.67854 0.3202976,-85.45436 3.2550473,-7.77581 52.8518422,-57.002203 60.6518402,-60.198869 7.799998,-3.196666 77.678546,-2.93475 85.454356,0.320298 7.77582,3.255047 57.00221,52.851841 60.19887,60.651841 3.19667,7.8 2.93475,77.67854 -0.3203,85.45436 -3.25504,7.77581 -52.85184,57.0022 -60.65184,60.19887 z"
        inkscape:transform-center-x="0.46840596"
        inkscape:transform-center-y="-6.3869783"
-       style="fill:url(#linearGradient1384);fill-opacity:1;stroke:#463f3a;stroke-width:1.64012074;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#dee7e7;stroke-width:5.46706921;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(0.97523239,0,0,0.96065554,1.884015,1.7116733)" />
   </g>
   <g
@@ -105,7 +82,7 @@
      id="layer2"
      inkscape:label="F">
     <path
-       style="display:inline;fill:#7c98b3;fill-opacity:1;stroke:#463f3a;stroke-width:1.6119442;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#dee7e7;fill-opacity:1;stroke:none;stroke-width:5.29166662;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 47.044576,171.14228 c 0,0 44.882689,1.35856 37.633027,-1.07493 -11.819049,-3.96727 12.305563,-63.68585 12.305563,-63.68585 0,0 31.409534,-5.18434 30.342424,2.34884 l 8.84988,-28.857144 c -6.00255,4.4955 -32.5549,2.34884 -32.5549,2.34884 l 4.741,-13.42192 h 46.77793 l 9.48201,-28.521591 c 0,0 -66.724834,-1.981152 -80.281021,9.395362 C 66.931145,64.284016 59.181775,168.635 47.044576,171.14228 Z"
        id="path4533"
        inkscape:connector-curvature="0"
