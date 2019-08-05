@@ -47,7 +47,7 @@
 </style>
 
 <div class="menuItem">
-    <a href="{link.href}" target="_blank">
+    <a href="{link.href}" target="_blank" rel="noopener">
         <i class="{link.logo}"></i>
         <p>{link.text}</p>
     </a>
