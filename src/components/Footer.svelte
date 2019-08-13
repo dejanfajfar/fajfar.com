@@ -3,7 +3,6 @@
 
 <style type="text/scss" lang="scss">
     footer {
-        margin-top: 40px;
         min-height: 60px;
         display: flex;
         justify-content: center;

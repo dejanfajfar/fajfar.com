@@ -13,14 +13,13 @@
     article {
         position: relative;
         display: block;
-        
         opacity: 0.8;
 
         @include desktop{
             opacity: 0.8;
             border: 1px solid $color4;
             width: 350px;
-            margin: 0 10px;
+            margin: 10px;
 
             transition: opacity .25s ease-in-out;
             -moz-transition: opacity .25s ease-in-out;
@@ -37,7 +36,7 @@
         }
 
         img {
-            width: inherit;
+            width: 100%;
         }
 
         i {
@@ -58,16 +57,25 @@
         .content {
             padding: 0 10px;
         }
+
+        a{
+            text-decoration: none;
+            color: $text-color;
+        }
     }
 </style>
 
 <article>
-    <i class="{project.type}"></i>
-    <img src="{project.img}" alt="{project.title}">
-    
+    <a href="{project.href}" target="_blank" rel="noopener">
+        <i class="{project.type}"></i>
+        <img src="{project.img}" alt="{project.title}">
+    </a>
+
     <div class="content">
-        <h1>{project.title}</h1>
-    
+        <a href="{project.href}" target="_blank" rel="noopener">
+            <h1>{project.title}</h1>
+        </a>
+        
         <p>{project.description}</p>
     </div>
 </article>

@@ -39,6 +39,10 @@
                 width:  150px;
             }
         }
+
+        p {
+            margin-bottom: 0;
+        }
         
         div {
             display: block;

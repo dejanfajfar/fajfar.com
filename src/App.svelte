@@ -13,5 +13,7 @@
 <Menu></Menu>
 <Splash></Splash>
 <ShortBio></ShortBio>
+<hr>
 <ProjectList></ProjectList>
+<hr>
 <Footer></Footer>
