@@ -49,12 +49,11 @@
 </style>
 
 <article class="shortbio">
-    
     <img src="/images/profile.jpg" alt="" />
     <div>
         <h1>Hello there</h1>
 
-        <p>My name is <strong>Dejan Fajfar</strong> and I am trying to make the world a better place one deployment at a time!</p>
+        <h2>I am software enthusiast based in Austria making the world a better place one deployment at a time!</h2>
 
         <p>
             I have spend a lot of my time latelly staying on top of all the emerging web frameworks and technologies. 

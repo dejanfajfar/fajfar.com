@@ -5,7 +5,7 @@
         {
             title: 'ttouch',
             type: 'fab fa-github-square',
-            description: 'Command line tool to easily create files! Contribute to dejanfajfar/ttouch development by creating an account on GitHub.',
+            description: 'Command line tool to easily create files! ',
             img: 'https://repository-images.githubusercontent.com/189295739/59d1f400-951e-11e9-8457-26f5462e0bcc',
             href: 'https://github.com/dejanfajfar/ttouch'
         },
@@ -36,7 +36,11 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    .projects {
+    article {
+
+    }
+
+    .projectsList {
         display: flex;
         justify-content: center;
 
@@ -51,10 +55,15 @@
     }
 </style>
 
-<h1>Some of my work</h1>
+<article>
 
-<div class="projects">
-    {#each projects as project}
-        <ProjectItem project={project}></ProjectItem>
-    {/each}
-</div>
+    <h1>Some of my work</h1>
+
+    <p>dfdfg</p>
+
+    <div class="projectsList">
+        {#each projects as project}
+            <ProjectItem project={project}></ProjectItem>
+        {/each}
+    </div>
+</article>

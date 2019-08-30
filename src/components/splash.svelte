@@ -63,6 +63,6 @@
 <div class="splash">
     <div class="logo">
         <img src="/images/logo.svg" alt=""/>
-        <p>fajfar.com</p>
+        <p>Dejan Fajfar</p>
     </div>
 </div>
