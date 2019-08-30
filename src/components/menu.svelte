@@ -44,7 +44,7 @@
     @import 'src/styles/component.scss';
     .menu {
         height: 50px;
-        background-color: $color4;
+        background-color: $bg-color;
         display: flex;
         padding-left: 20px;
         align-items: center;

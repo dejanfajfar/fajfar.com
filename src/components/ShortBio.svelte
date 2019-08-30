@@ -7,7 +7,7 @@
         display: flex;
 
         @include desktop{
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
             justify-content: space-between;
             flex-direction: row;
@@ -18,25 +18,19 @@
             flex-direction: column;
             align-items: center;
             width: 100%;
-            margin-top: 10px;
         }
         
         img {
             flex: none;
-            margin: 20px;
-            border-radius: 50%;
             overflow: hidden;
-            box-shadow: $shadow-color 0 0 5px;
-            border: 5px solid $color3;
 
             @include desktop{
-                height: 100px;
-                width:  100px;
+                display: none;
             }
 
             @include mobile{
-                height: 150px;
-                width:  150px;
+                width: 100%;
+                @include boxShadow;
             }
         }
 
@@ -55,8 +49,8 @@
 </style>
 
 <article class="shortbio">
-    <img src="/images/profile.jpg" alt="">
     
+    <img src="/images/profile.jpg" alt="" />
     <div>
         <h1>Hello there</h1>
 

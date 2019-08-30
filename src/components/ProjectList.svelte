@@ -51,6 +51,8 @@
     }
 </style>
 
+<h1>Some of my work</h1>
+
 <div class="projects">
     {#each projects as project}
         <ProjectItem project={project}></ProjectItem>
