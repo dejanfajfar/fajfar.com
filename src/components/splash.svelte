@@ -35,9 +35,10 @@
 
             p {
                 margin: auto 0;
-                font-weight: 700;
+                font-weight: 100;
                 color: $menu-item;
                 text-shadow: $logo-shadow 2px 2px 5px; 
+                font-family: Raleway;
 
                 @include mobile {
                     font-size: 10vw;

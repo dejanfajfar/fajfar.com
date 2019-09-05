@@ -5,7 +5,7 @@
 	import ProjectList from './components/ProjectList.svelte';
 	import Footer from './components/Footer.svelte';
 
-	export let socialLinks = [
+	let socialLinks = [
         {
             text: 'linkedIn',
             logo: 'fab fa-linkedin',

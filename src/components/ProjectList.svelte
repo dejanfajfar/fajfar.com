@@ -36,8 +36,9 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    article {
-
+    .content{
+        width: 80%;
+        margin: 0 auto;
     }
 
     .projectsList {
@@ -57,9 +58,12 @@
 
 <article>
 
-    <h1>Some of my work</h1>
+    <div class="content">
+        <h1>Some of my work</h1>
 
-    <p>dfdfg</p>
+        <p>Sadly because of various NDAs I can not publish all of my work, which I would like to do. 
+        So please take some time to look at what is here.</p>
+    </div>
 
     <div class="projectsList">
         {#each projects as project}

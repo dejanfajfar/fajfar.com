@@ -12,7 +12,8 @@
     article {
         position: relative;
         display: block;
-        opacity: 0.8;
+        background-color: $logo-shadow;
+        color: $logo-color;
         @include boxShadow;
 
         @include desktop{
@@ -32,7 +33,8 @@
         }
 
         @include mobile{
-            width: 100%;
+            width: 90%;
+            margin: 10px auto;
         }
 
         img {

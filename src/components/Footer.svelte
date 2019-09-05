@@ -12,6 +12,11 @@
         color: $logo-color;
         margin-top: 40px;
 
+        @include mobile {
+            flex-direction: column;
+            padding-bottom: 40px;
+        }
+
         article {
             margin: 0 10px;
 
