@@ -53,15 +53,15 @@
     <div>
         <h1>Hello there</h1>
 
-        <h2>I am software enthusiast based in Austria making the world a better place one deployment at a time!</h2>
+        <h2>A software architect based in Austria I help my clients to get the most out of their infrastructure and software.</h2>
 
         <p>
-            I have spend a lot of my time latelly staying on top of all the emerging web frameworks and technologies. 
-            So while in the <i>office</i> I usually help my team or clients with a web UI problem or two. Mostly arround SPAs and PWAs.
+            Comming from a <strong>C#</strong> background I know my way arround all variants of the .NET framewor.
+            
         </p>
 
         <p>
-            To not over specialize on the web UI front I try to stay in touch with the server site by working with <strong>python</strong> and <strong>go lang</strong> on server site problems.        
+            Not beeing limeted by that I also know my way arrount docker and quite some CI/CP systems.
         </p>
 
         <p>
