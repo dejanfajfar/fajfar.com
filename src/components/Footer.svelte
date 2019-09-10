@@ -1,5 +1,9 @@
 <script>
     export let socialLinks;
+
+    export let phoneNumber;
+
+    export let email;
 </script>
 
 <style type="text/scss" lang="scss">
@@ -37,8 +41,8 @@
     <article class="column">
         <h2>Contact information</h2>
 
-        <p><i class="fas fa-phone-square"></i> 0043 (0)650 500 56 44</p>
-        <p><i class="fas fa-envelope-square"></i> dejan@fajfar.com</p>
+        <p><i class="fas fa-phone-square"></i> {phoneNumber}</p>
+        <p><i class="fas fa-envelope-square"></i> {email}</p>
     </article>
     <article class="column">
         <h2>Online Presence</h2>

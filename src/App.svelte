@@ -53,4 +53,8 @@
 <ShortBio></ShortBio>
 <hr>
 <ProjectList></ProjectList>
-<Footer socialLinks={socialLinks}></Footer>
+<Footer 
+    socialLinks={socialLinks} 
+    phoneNumber='0043 (0)650 500 56 44' 
+    email='dejan@fajfar.com'>
+</Footer>
