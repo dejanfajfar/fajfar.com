@@ -51,26 +51,36 @@
 <article class="shortbio">
     <img src="/images/profile.jpg" alt="" />
     <div>
-        <h1>Hello there</h1>
+        <h1>Dejan Fajfar is</h1>
 
-        <h2>A software architect based in Austria I help my clients to get the most out of their infrastructure and software.</h2>
+        <h2>A software architect based in Austria who helps his clients get the most out of their infrastructure an keep on top of current trends in the industry</h2>
 
         <p>
-            Comming from a <strong>C#</strong> background I know my way arround all variants of the .NET framewor.
-            
+            Coming from a <strong>C#</strong> background he knows his way around all variants of the <strong>.NET</strong> framework.
+            <i>ASP.NET</i> and <strong>ASP.NET MVC</strong> have taken up quite some of his time. 
+            Before switching to <strong>REST</strong> he developer quite a few <strong>WCF</strong> based services.
+            As alternatives to REST like <strong>GraphQL</strong> or other variations of <i>RPC</i> like <strong>gRPC</strong> became more popular he plunged himself into that world.
         </p>
 
         <p>
-            Not beeing limeted by that I also know my way arrount docker and quite some CI/CP systems.
+            With his professional focus mostly being on web technologies he got into <strong>Node JS</strong> and with that came the numerous web frameworks and technologies. 
+            Professionally he lead the development of a major <strong>Angular</strong> base web application. Personally he is more interested in the likes of <strong>VueJs</strong> and <strong>Svelte</strong>.
         </p>
 
         <p>
-            Latelly I have found myself beeing drawn to the <strong>machine learning</strong> site of things so I guess it is only a time untill something in that way will be developed.
+            Being interested in the complete software life cycle he learned <strong>Docker</strong> and quite some <strong>CI/CP</strong> systems. 
+            Those include Jenkins, TeamCity, Travis-CI, AppVeyor, GitHub actions and Azure pipelines.
         </p>
 
         <p>
-            When not in the office I try try to spen time with my familly and work on some of my open source projects. Reading and playing gamis is also somewhere in there. 
-            All in all my live never gets boring.
+            Lately he is being drawn to <strong>machine learning</strong> and <strong>IoT</strong>. 
+            This has prompted him to investigate things like <strong>Tensor Flow</strong> and <strong>ML.net</strong>.
+            With that came the inevitable learning of additional programming languages like <strong>Go-lang</strong>, <strong>Python</strong> and lately <strong>Rust</strong>.
+        </p>
+
+        <p>
+            When not in the office he spends time with his family and works on his <a href="https://github.com/dejanfajfar" target="_blank">open source projects</a>. Reading and playing games is also somewhere in there. 
+            All in all his live never gets boring.
         </p>
     </div>
 </article>
