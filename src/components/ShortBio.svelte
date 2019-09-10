@@ -57,7 +57,7 @@
 
         <p>
             Coming from a <strong>C#</strong> background he knows his way around all variants of the <strong>.NET</strong> framework.
-            <i>ASP.NET</i> and <strong>ASP.NET MVC</strong> have taken up quite some of his time. 
+            <i>ASP.NET</i> and <strong>ASP.NET core MVC</strong> have taken up quite some of his time. 
             Before switching to <strong>REST</strong> he developer quite a few <strong>WCF</strong> based services.
             As alternatives to REST like <strong>GraphQL</strong> or other variations of <i>RPC</i> like <strong>gRPC</strong> became more popular he plunged himself into that world.
         </p>
