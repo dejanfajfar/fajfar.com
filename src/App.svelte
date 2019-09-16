@@ -3,7 +3,7 @@
 	import Menu from './components/menu.svelte';
 	import ShortBio from './components/ShortBio.svelte';
     import ProjectList from './components/ProjectList.svelte';
-    import ProjectItem from './ProjectItem.svelte'
+    import ProjectItem from './components/ProjectItem.svelte'
 	import Footer from './components/Footer.svelte';
 
 	let socialLinks = [
