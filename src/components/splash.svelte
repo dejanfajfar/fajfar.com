@@ -3,10 +3,11 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    .splash {
+    section {
         background: $bg-color;
         display: flex;
         align-items: center;
+        @include boxShadow;
         
         @include desktop{
             background-image: url('/images/profile.jpg');
@@ -14,23 +15,34 @@
             background-repeat: no-repeat;
             justify-content: flex-end;
             height: 600px;
-            @include boxShadow;
         }
 
         @include mobile{
-            height: 200px;
             justify-content: center;
+            flex-direction: column;
+        }
+
+        .profilePic {
+            width: 100%;
+            display: block;
+
+            @include desktop {
+                display: none;
+            }
         }
 
         .logo {
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
             
             @include mobile {
-                margin: auto 0;
+                height: 200px;
+                margin-top: 20px;
             }
 
             @include desktop {
-                margin: auto 10px 10px 0;
+                margin: auto 20px 10px 0;
             }
 
             p {
@@ -55,15 +67,17 @@
 
                 @include mobile{
                     height: 100px;
+                    display: inline-block;
                 }
             }
         }
     }
 </style>
 
-<div class="splash">
+<section class="splash">
     <div class="logo">
         <img src="/images/logo.svg" alt=""/>
         <p>Dejan Fajfar</p>
     </div>
-</div>
+    <img class="profilePic" src="/images/profile.jpg" alt=""/>
+</section>

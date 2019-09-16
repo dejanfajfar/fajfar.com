@@ -18,7 +18,7 @@
 
         @include desktop{
             opacity: 0.8;
-            border: 1px solid $color4;
+            border: 1px solid $bg-color;
             width: 350px;
             margin: 10px;
 
@@ -47,7 +47,7 @@
             left: 0;
             padding: 10px;
             border-radius: 0 0 10px 0;
-            background-color: $color4;
+            background-color: $bg-color;
             color: $color3;
             font-size: xx-large;
 

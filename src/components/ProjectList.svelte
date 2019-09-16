@@ -36,38 +36,43 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    .content{
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .projectsList {
-        display: flex;
-        justify-content: center;
-
+    section{
         @include desktop{
-            flex-direction: row;
-            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
         }
 
         @include mobile{
-            flex-direction: column;
+            margin: 0 20px;
+        }
+
+            .projectsList {
+            display: flex;
+            justify-content: center;
+
+            @include desktop{
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            @include mobile{
+                flex-direction: column;
+            }
         }
     }
 </style>
 
-<article>
+<section>
+    <h1>Some of my work</h1>
 
-    <div class="content">
-        <h1>Some of my work</h1>
-
-        <p>Sadly because of various NDAs I can not publish all of my work, which I would like to do. 
-        So please take some time to look at what is here.</p>
-    </div>
+    <p>
+        Because of various <strong>NDAs</strong> I can not share most of my work. But here is a little sample of projects I have, and still am, doing in my spare time.
+    </p>
 
     <div class="projectsList">
         {#each projects as project}
             <ProjectItem project={project}></ProjectItem>
         {/each}
     </div>
-</article>
+</section>
