@@ -48,7 +48,7 @@
             padding: 10px;
             border-radius: 0 0 10px 0;
             background-color: $bg-color;
-            color: $color3;
+            color: $logo-color;
             font-size: xx-large;
 
             @include mobile{
