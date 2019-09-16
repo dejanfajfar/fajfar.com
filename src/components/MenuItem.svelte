@@ -9,6 +9,7 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
     .menuItem {
+
         a {
             display: flex;
             align-items: center;

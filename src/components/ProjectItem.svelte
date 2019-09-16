@@ -1,7 +1,6 @@
 <script>
     export let project = {
         title: 'ttouch',
-        type: 'fab fa-github-square',
         description: 'Command line tool to easily create files! Contribute to dejanfajfar/ttouch development by creating an account on GitHub.',
         img: 'https://repository-images.githubusercontent.com/189295739/59d1f400-951e-11e9-8457-26f5462e0bcc'
     };
@@ -13,11 +12,13 @@
     article {
         position: relative;
         display: block;
-        opacity: 0.8;
+        background-color: $logo-shadow;
+        color: $logo-color;
+        @include boxShadow;
 
         @include desktop{
             opacity: 0.8;
-            border: 1px solid $color4;
+            border: 1px solid $bg-color;
             width: 350px;
             margin: 10px;
 
@@ -32,7 +33,8 @@
         }
 
         @include mobile{
-            width: 100%;
+            width: 90%;
+            margin: 10px auto;
         }
 
         img {
@@ -45,8 +47,8 @@
             left: 0;
             padding: 10px;
             border-radius: 0 0 10px 0;
-            background-color: $color4;
-            color: $color3;
+            background-color: $bg-color;
+            color: $logo-color;
             font-size: xx-large;
 
             @include mobile{
@@ -67,15 +69,10 @@
 
 <article>
     <a href="{project.href}" target="_blank" rel="noopener">
-        <i class="{project.type}"></i>
         <img src="{project.img}" alt="{project.title}">
     </a>
 
     <div class="content">
-        <a href="{project.href}" target="_blank" rel="noopener">
-            <h1>{project.title}</h1>
-        </a>
-        
         <p>{project.description}</p>
     </div>
 </article>

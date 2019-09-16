@@ -1,24 +1,22 @@
 /* Coolors Exported Palette - coolors.co/463f3a-f4faff-dee7e7-7261a3-7c98b3 */
 
-/* HSL */
-$color1: hsla(25%, 9%, 25%, 1);
-$color2: hsla(207%, 100%, 98%, 1);
-$color3: hsla(180%, 16%, 89%, 1);
-$color4: hsla(255%, 26%, 51%, 1);
-$color5: hsla(209%, 27%, 59%, 1);
 
-/* RGB */
-$color1: rgba(70, 63, 58, 1);
-$color2: rgba(244, 250, 255, 1);
-$color3: rgba(222, 231, 231, 1);
-$color4: rgba(114, 97, 163, 1);
-$color5: rgba(124, 152, 179, 1);
+$page-bg-color: #f4faff;
 
-/* Dedicated color variables */
+$logo-color: #dee7e7;
+$logo-shadow: #233F53;
 
-$menu-item: $color3;
-$menu-item-hover: $color1;
+$menu-item: #dee7e7;
+$menu-item-hover: #463f01;
 
-$bg-color: $color2;
-$text-color: $color1;
-$shadow-color: $color1;
+$bg-color: #182E44;
+
+$text-color: #424242;
+$text-highlight-color: #607D8B;
+
+$shadow-color: #463f01;
+
+$link-color: #182E44;
+
+$footer-bg-color: #182E44;
+$footer-txt-color: #dee7e7;

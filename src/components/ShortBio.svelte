@@ -3,81 +3,81 @@
 <style lang="scss" type="text/scss">
 @import 'src/styles/component.scss';
 
-    .shortbio {
-        display: flex;
+    section {
 
         @include desktop{
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
-            justify-content: space-between;
-            flex-direction: row;
             margin-top: 40px;
         }
 
         @include mobile{
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            margin-top: 10px;
+            margin: 0 20px;
+        }
+
+        q {
+            font-size: 24px;
+            font-family: Raleway;
+            font-weight: 100;
+            color: $text-highlight-color;
         }
         
         img {
             flex: none;
-            margin: 20px;
-            border-radius: 50%;
             overflow: hidden;
-            box-shadow: $shadow-color 0 0 5px;
-            border: 5px solid $color3;
 
             @include desktop{
-                height: 100px;
-                width:  100px;
+                display: none;
             }
 
             @include mobile{
-                height: 150px;
-                width:  150px;
+                width: 100%;
+                @include boxShadow;
             }
         }
 
         p {
             margin-bottom: 0;
-        }
-        
-        div {
-            display: block;
 
-            @include mobile{
-                margin: 0 10px;
+            em {
+                font-weight: 700;
+                color: $text-highlight-color;
+                font-style: normal;
             }
         }
     }
 </style>
 
-<article class="shortbio">
-    <img src="/images/profile.jpg" alt="">
-    
-    <div>
-        <h1>Hello there</h1>
+<section>
+    <h1>Dejan Fajfar is</h1>
 
-        <p>My name is <strong>Dejan Fajfar</strong> and I am trying to make the world a better place one deployment at a time!</p>
+    <q>A software architect based in Austria who helps his clients get the most out of their infrastructure an keep on top of current trends in the industry</q>
 
-        <p>
-            I have spend a lot of my time latelly staying on top of all the emerging web frameworks and technologies. 
-            So while in the <i>office</i> I usually help my team or clients with a web UI problem or two. Mostly arround SPAs and PWAs.
-        </p>
+    <p>
+        Coming from a <em>C#</em> background he knows his way around all variants of the <em>.NET</em> framework.
+        <i>ASP.NET</i> and <em>ASP.NET core MVC</em> have taken up quite some of his time. 
+        Before switching to <em>REST</em> he developer quite a few <em>WCF</em> based services.
+        As alternatives to REST like <em>GraphQL</em> or other variations of <i>RPC</i> like <em>gRPC</em> became more popular he plunged himself into that world.
+    </p>
 
-        <p>
-            To not over specialize on the web UI front I try to stay in touch with the server site by working with <strong>python</strong> and <strong>go lang</strong> on server site problems.        
-        </p>
+    <p>
+        With his professional focus mostly being on web technologies he got into <em>Node JS</em> and with that came the numerous web frameworks and technologies. 
+        Professionally he lead the development of a major <em>Angular</em> base web application. Personally he is more interested in the likes of <em>VueJs</em> and <em>Svelte</em>.
+    </p>
 
-        <p>
-            Latelly I have found myself beeing drawn to the <strong>machine learning</strong> site of things so I guess it is only a time untill something in that way will be developed.
-        </p>
+    <p>
+        Being interested in the complete software life cycle he learned <em>Docker</em> and quite some <em>CI/CP</em> systems. 
+        Those include Jenkins, TeamCity, Travis-CI, AppVeyor, GitHub actions and Azure pipelines.
+    </p>
 
-        <p>
-            When not in the office I try try to spen time with my familly and work on some of my open source projects. Reading and playing gamis is also somewhere in there. 
-            All in all my live never gets boring.
-        </p>
-    </div>
-</article>
+    <p>
+        Lately he is being drawn to <em>machine learning</em> and <em>IoT</em>. 
+        This has prompted him to investigate things like <em>Tensor Flow</em> and <em>ML.net</em>.
+        With that came the inevitable learning of additional programming languages like <em>Go-lang</em>, <em>Python</em> and lately <em>Rust</em>.
+    </p>
+
+    <p>
+        When not in the office he spends time with his family and works on his <a href="https://github.com/dejanfajfar" target="_blank">open source projects</a>. Reading and playing games is also somewhere in there. 
+        All in all his live never gets boring.
+    </p>
+</section>

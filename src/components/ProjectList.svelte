@@ -5,7 +5,7 @@
         {
             title: 'ttouch',
             type: 'fab fa-github-square',
-            description: 'Command line tool to easily create files! Contribute to dejanfajfar/ttouch development by creating an account on GitHub.',
+            description: 'Command line tool to easily create files! ',
             img: 'https://repository-images.githubusercontent.com/189295739/59d1f400-951e-11e9-8457-26f5462e0bcc',
             href: 'https://github.com/dejanfajfar/ttouch'
         },
@@ -36,23 +36,43 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
 
-    .projects {
-        display: flex;
-        justify-content: center;
-
+    section{
         @include desktop{
-            flex-direction: row;
-            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
         }
 
         @include mobile{
-            flex-direction: column;
+            margin: 0 20px;
+        }
+
+            .projectsList {
+            display: flex;
+            justify-content: center;
+
+            @include desktop{
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            @include mobile{
+                flex-direction: column;
+            }
         }
     }
 </style>
 
-<div class="projects">
-    {#each projects as project}
-        <ProjectItem project={project}></ProjectItem>
-    {/each}
-</div>
+<section>
+    <h1>Some of my work</h1>
+
+    <p>
+        Because of various <strong>NDAs</strong> I can not share most of my work. But here is a little sample of projects I have, and still am, doing in my spare time.
+    </p>
+
+    <div class="projectsList">
+        {#each projects as project}
+            <ProjectItem project={project}></ProjectItem>
+        {/each}
+    </div>
+</section>
