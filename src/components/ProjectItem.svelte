@@ -1,9 +1,7 @@
 <script>
-    export let project = {
-        title: 'ttouch',
-        description: 'Command line tool to easily create files! Contribute to dejanfajfar/ttouch development by creating an account on GitHub.',
-        img: 'https://repository-images.githubusercontent.com/189295739/59d1f400-951e-11e9-8457-26f5462e0bcc'
-    };
+    export let title = '';
+    export let image = '';
+    export let link = '';
 </script>
 
 <style type="text/scss" lang="scss">
@@ -68,11 +66,11 @@
 </style>
 
 <article>
-    <a href="{project.href}" target="_blank" rel="noopener">
-        <img src="{project.img}" alt="{project.title}">
+    <a href="{link}" target="_blank" rel="noopener">
+        <img src="{image}" alt="{title}">
     </a>
 
     <div class="content">
-        <p>{project.description}</p>
+        <slot></slot>
     </div>
 </article>
