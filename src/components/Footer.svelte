@@ -9,11 +9,11 @@
 <style type="text/scss" lang="scss">
     @import 'src/styles/component.scss';
     footer {
-        background-color: $bg-color;
+        background-color: $footer-bg-color;
         min-height: 60px;
         display: flex;
         justify-content: space-around;
-        color: $logo-color;
+        color: $footer-txt-color;
         margin-top: 40px;
 
         @include mobile {
@@ -24,9 +24,13 @@
         article {
             margin: 0 10px;
 
+            h2 {
+                color: $footer-txt-color;
+            }
+
             a {
                 text-decoration: none;
-                color: $logo-color;
+                color: $footer-txt-color;
 
                 i {
                     font-size: xx-large;

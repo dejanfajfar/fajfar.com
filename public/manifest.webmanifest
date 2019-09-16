@@ -3,7 +3,7 @@
     "start_url": ".",
     "display": "standalone",
     "lang": "en-US",
-    "background_color": "#7261a3",
+    "background_color": "#182E44",
     "icons": [
         {
           "src": "/images/logo_192.png",

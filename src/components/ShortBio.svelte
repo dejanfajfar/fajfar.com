@@ -40,7 +40,7 @@
             margin-bottom: 0;
 
             em {
-                font-weight: bold;
+                font-weight: 700;
                 color: $text-highlight-color;
                 font-style: normal;
             }
